@@ -31,8 +31,10 @@ Pod::Spec.new do |s|
 
 
 
-  s.source_files  = "CRFramework/*"
-  s.exclude_files = "Classes/Exclude"
+
+  s.source_files  = "TestFramework.framework/*"
+#s.vendored_frameworks = "CRFramework/TestFramework.framework"
+ #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -43,7 +45,7 @@ Pod::Spec.new do |s|
 
 
 
-  # s.framework  = "Foundation.framework"
+  s.framework  = "Foundation"
   # s.frameworks = "SomeFramework", "AnotherFramework"
 
   # s.library   = "iconv"
