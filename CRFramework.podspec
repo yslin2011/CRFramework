@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CRFramework"
-  s.version      = "0.0.1"
+  s.version      = "0.0.6"
   s.summary      = "A short description of CRFramework.Just testing!"
   s.description  = <<-DESC
                    It is a marquee view used on iOS, which implement by Objective-C.
@@ -27,13 +27,9 @@ Pod::Spec.new do |s|
 
 
 
-  s.source       = { :git => "http://github.com/yslin2011/CRFramework.git", :tag => "#{s.version}" }
-
-
-
-
-  s.source_files  = "TestFramework.framework/*"
-#s.vendored_frameworks = "CRFramework/TestFramework.framework"
+s.source       = { :git => "http://github.com/yslin2011/CRFramework.git", :tag => "#{s.version}"  }
+s.source_files  = "CRFramework/TestFramework.framework/Headers/*.h"
+s.vendored_frameworks = "CRFramework/TestFramework.framework"
  #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
