@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "CRFramework"
-  s.version      = "0.1.3"
+  s.version      = "0.1.5"
   s.summary      = "A short description of CRFramework.Just testing!"
   s.description  = <<-DESC
                    It is a marquee view used on iOS, which implement by Objective-C.
