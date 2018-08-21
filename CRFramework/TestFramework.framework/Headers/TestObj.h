@@ -14,6 +14,7 @@
 
 -(NSString*)loadCocoaPodObj;
 
+// 测试
 -(void)testLocalRepo;
 
 
