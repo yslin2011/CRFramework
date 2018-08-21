@@ -12,4 +12,6 @@
 
 -(void)speak;
 
+-(NSString*)loadCocoaPodObj;
+
 @end
